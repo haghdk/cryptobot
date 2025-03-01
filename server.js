@@ -5,10 +5,6 @@ require('dotenv').config()
 const PUSHBULLET_ACCESS_TOKEN = process.env.PUSHBULLET_ACCESS_TOKEN // Replace with your token
 const pusher = new PushBullet(PUSHBULLET_ACCESS_TOKEN);
 
-console.log(PUSHBULLET_ACCESS_TOKEN)
-
-// new PushBullet()
-
 const CRYPTO_ID = "pi-network"; // CoinGecko ID
 const FIAT = "eur";
 const TARGET_PRICE = 1.75; // Change this
